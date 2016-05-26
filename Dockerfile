@@ -1,4 +1,4 @@
-FROM centos
+FROM private-registry.marathon.mesos:5000/centos
 ENV HTTP_PROXY=http://web-proxy.corp.hpecorp.net:8080
 ENV HTTPS_PROXY=http://web-proxy.corp.hpecorp.net:8080
 ENV NO_PROXY=172.16.1.16,mesos
