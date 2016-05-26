@@ -14,6 +14,9 @@
   },
   "env": {
     "REFRESH_DELAY": "5"
+  },
+  "upgradeStrategy": {
+    "minimumHealthCapacity": 0.0,
+    "maximumOverCapacity": 0.0
   }
 }
-
