@@ -4,7 +4,7 @@
   "cpus": 0.2,
   "mem": 256,
   "healthChecks": [ { "path": "/haproxy_stats", "port": 9090 } ],
-  "constraints": [["hostname","CLUSTER","172.16.1.23"]],
+  "constraints": [["hostname","CLUSTER","16.202.64.110"]],
   "container": {
     "type": "DOCKER",
     "docker": {
