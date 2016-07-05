@@ -3,7 +3,6 @@
   "instances": 1,
   "cpus": 0.2,
   "mem": 256,
-<<<<<<< HEAD
   "healthChecks": [ { "path": "/haproxy_stats", "port": 9090 } ],
   "constraints": [["hostname","CLUSTER","16.202.64.110"]],
   "container": {
